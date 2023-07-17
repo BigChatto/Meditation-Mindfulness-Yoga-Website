@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    padding: 1rem 3rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header {
+    background: url("../images/bruce-mars-gJtDg6WfMlQ-unsplash.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 5rem;
+}
+
+input {
+    width: 50%;
+    border: none;
+    background: white;
+    font-size: 18px;
+    padding: 1rem;
+}
+
+button {
+    width: 10%;
+    border: none;
+    background: #222;
+    color: white;
+    font-size: 18px;
+    padding: 1rem;
+}
