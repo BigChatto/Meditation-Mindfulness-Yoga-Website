@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-#nav {
+#section---1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,4 +46,105 @@ button {
     color: white;
     font-size: 18px;
     padding: 1rem;
+}
+
+#section---1 {
+    padding: 2rem 3rem;
+}
+
+#section---2 h2,
+#section---3 h2,
+#section---4 h3 {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+#section---3 {
+    padding: 2rem;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+
+.meditation {
+    border: 1px solid #22222269;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px 0 #333;
+    font-size: 15px;
+    transition: box-shadow .3s;
+    background-color: #222;
+    color: #fff;
+}
+
+.meditation h3 {
+    font-size: 19px;
+
+}
+
+.meditation:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    background-color: white;
+    color: #222;
+}
+
+#section---3 {
+    background: url("../images/scott-webb-gWerBZuKM9c-unsplash.jpg") no-repeat;
+    background-size: cover;
+    padding: 3rem;
+}
+
+#section---3 h2 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+
+}
+
+.about-us {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    padding: 1rem 3rem;
+    gap: 3rem;
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+#section---4 {
+    padding: 5rem;
+    line-height: 1.5;
+}
+
+.meditation-tips {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.meditation-tips img {
+    width: 100%;
+
+}
+
+#classes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+
+.yoga-classes {
+    text-align: center;
+}
+
+.yoga-classes img {
+    width: 100%;
+    border: 3px double #222;
 }
